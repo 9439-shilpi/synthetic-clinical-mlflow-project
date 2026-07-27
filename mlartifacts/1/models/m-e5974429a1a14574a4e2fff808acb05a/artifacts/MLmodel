@@ -1,0 +1,42 @@
+artifact_path: mlflow-artifacts:/1/models/m-e5974429a1a14574a4e2fff808acb05a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.14.0
+model_id: m-e5974429a1a14574a4e2fff808acb05a
+model_size_bytes: 144503
+model_uuid: m-e5974429a1a14574a4e2fff808acb05a
+prompts: null
+run_id: 83a6808f8c4a43c98d0b08ded5454a7e
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "string",
+    "name": "sex", "required": true}, {"type": "double", "name": "bmi", "required":
+    true}, {"type": "double", "name": "systolic_bp", "required": true}, {"type": "double",
+    "name": "diastolic_bp", "required": true}, {"type": "double", "name": "glucose",
+    "required": true}, {"type": "double", "name": "cholesterol", "required": true},
+    {"type": "double", "name": "creatinine", "required": true}, {"type": "long", "name":
+    "diabetes", "required": true}, {"type": "long", "name": "hypertension", "required":
+    true}, {"type": "long", "name": "readmission_30d", "required": true}, {"type":
+    "long", "name": "mortality", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-07-27 18:53:12.048955'

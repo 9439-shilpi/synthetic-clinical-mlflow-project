@@ -64,8 +64,6 @@ synthetic-clinical-mlflow-project/
 ├── notebooks/
 │   └── clinical_diagnosis_mlflow.ipynb
 │
-├── mlartifacts/
-│
 ├── mlflow.db
 │
 ├── README.md

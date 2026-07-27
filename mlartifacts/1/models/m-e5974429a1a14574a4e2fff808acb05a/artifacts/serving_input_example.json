@@ -1,0 +1,62 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "age",
+      "sex",
+      "bmi",
+      "systolic_bp",
+      "diastolic_bp",
+      "glucose",
+      "cholesterol",
+      "creatinine",
+      "diabetes",
+      "hypertension",
+      "readmission_30d",
+      "mortality"
+    ],
+    "data": [
+      [
+        46,
+        "Male",
+        27.0,
+        144.0,
+        95.0,
+        138.6,
+        186.7,
+        0.99,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        82,
+        "Male",
+        26.9,
+        118.0,
+        89.0,
+        100.0,
+        134.5,
+        0.97,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        50,
+        "Male",
+        35.7,
+        122.0,
+        90.0,
+        98.2,
+        156.1,
+        0.5,
+        0,
+        0,
+        1,
+        0
+      ]
+    ]
+  }
+}
