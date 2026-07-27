@@ -1,0 +1,7 @@
+numpy>=2.0.0
+pandas>=2.2.0
+scikit-learn>=1.7.0
+matplotlib>=3.10.0
+mlflow==3.14.0
+requests>=2.32.0
+jupyter>=1.1.0
