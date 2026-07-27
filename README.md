@@ -289,6 +289,10 @@ synthetic-clinical-mlflow-project/
 
 ---
 
+## MLflow Configuration
+
+- **Tracking URI:** `http://127.0.0.1:5050`
+
 ## Author
 
 **Sunandana Sahoo**
